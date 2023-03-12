@@ -1,0 +1,52 @@
+<!--id는 element당 단 한개만 가짐-->
+<!--box는 block(줄 바꿈), box아닌 것은 inline(같은 줄 가능)-->
+<!--inline 종류: span, a, image등등 나머지 block-->
+<!--label의 for과 input의 id는 같아야함-->
+<!--flexbox 1.부모에만 적는다.(display: flex) 
+    2.main axis(수평)-> justify-content 
+    3.cross axis(수직)-> align-items -->
+<!--shift alt 위아래 = 해당줄 선택-->
+<!--ctrl / 주석 단축키 -->
+<!--div*10 = div 10개 -->
+<!--script는 항상 body 태그를 닫기 전 마지막에 위치 -->
+<!--link:css = css 단축키 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Kokoa Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <!--To do battery icon-->
+            <i class="fas fa-bolt"></i>
+            <!--To do Lightning icon-->
+        </div>
+    </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+        <p class="welcome-header__text">If you have a Kokoa Account, log in with your email or phone number.</p>
+    </header>
+    <form id="login-form">
+        <input type="text" placeholder="Email or phone number"/>
+        <input type="password" placeholder="Password"/>
+        <input type="submit" value="Log in">
+        <a href="#">Find Kokoa Account or Password</a>
+    </form>
+    
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>
