@@ -16,16 +16,6 @@
     color: #2F363E;
 }
 .nav__notification{
-    background-color: tomato;
-    width:30px;
-    height:30px;
-    /*원은 사각형 크기의 반*/
-    border-radius: 15px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    color:white;
-    font-weight: 600;
     position:absolute;
     left:15px;
     bottom:15px;
