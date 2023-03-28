@@ -1,4 +1,4 @@
-## day2 #2.0~2.4 / 2.5~2.11
+## day2 #2.0~2.4
 
 ### 2023.03.27 Preview
 
@@ -36,16 +36,16 @@
 
 ### 6. head - 웹 사이트의 환경 설정 / body - 사용자가 볼 수 있는 content(브라우저 화면 상에 보여질 내용들은 전부 body 태그 안에 존재해야 함)
 
-### 7. meta - 부가적인 정보(content와 name을 가짐)
+### 2023.03.28 review
 
-### 8. label - input과 함께있어야 작동(for과 id의 값 동일), for과 동일한 id 작동
+### Q1: A browser will always show some content even if the HTML is wrong.
 
-```html
-<label for="profile"></label> <input id="profile" />
-```
+### A: True
 
-### 9. semantic tag - header, main, footer...
+### Q2: I can write any tag I like on HTML, like <food>김치</food>
 
-### 9-1. semantic tag로 짜도록 노력할 것(의미 파악 쉬움)
+### A: Yes, but it will not have an effect on the browser.
 
-### nonsemantic tag - div(박스), span(짧은 텍스트), p(문단)...
+### Q3: To make a heading on HTML I should write <h1>Title<h1>
+
+### A: False
