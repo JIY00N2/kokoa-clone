@@ -36,7 +36,7 @@
 
 ### 6. head - 웹 사이트의 환경 설정 / body - 사용자가 볼 수 있는 content(브라우저 화면 상에 보여질 내용들은 전부 body 태그 안에 존재해야 함)
 
-### 2023.03.28 review
+### 2023.03.28 day2 review
 
 ### Q1: A browser will always show some content even if the HTML is wrong.
 
