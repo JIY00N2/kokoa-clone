@@ -46,6 +46,6 @@
 
 ### A: Yes, but it will not have an effect on the browser.
 
-### Q3: To make a heading on HTML I should write <h1>Title<h1>
+### Q3: To make a heading on HTML I should write \<h1>Title\<h1>
 
 ### A: False
