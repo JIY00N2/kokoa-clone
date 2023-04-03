@@ -1,5 +1,7 @@
 ### 2023.04.01 day6 Review
 
+my answer
+
 ```css
 body {
   height: 100vh;
@@ -64,6 +66,62 @@ body {
         <div class="turquoise-box"></div>
         <div class="turquoise-box"></div>
       </div>
+    </div>
+  </body>
+</html>
+```
+
+ta answer
+
+```css
+body {
+  background: tomato;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.father {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: wheat;
+  border: 2px solid black;
+}
+
+.inside {
+  background: teal;
+  height: 50px;
+  width: 50px;
+  border: 3px solid white;
+}
+
+.inside-second {
+  width: 100%;
+  border-style: dashed;
+}
+```
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>repl.it</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="father">
+      <div class="inside"></div>
+      <div class="inside inside-second"></div>
+      <div class="inside"></div>
     </div>
   </body>
 </html>
