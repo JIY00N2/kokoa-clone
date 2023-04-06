@@ -126,17 +126,21 @@ body {
   justify-content: center;
   align-items: center;
   margin: 30px 0px;
+  animation: rotate 1s ease-in-out infinite;
+}
+.line-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;
 }
 
 @keyframes rotate {
-  0% {
-    transform: translateX(0%) translateY(0%);
-  }
   50% {
-    transform: translateX(180%) translateY(-180%);
+    transform: rotate(0.5turn);
   }
   100% {
-    transform: translateX(360%) translateY(0%);
+    transform: rotate(0.5turn);
   }
 }
 
@@ -146,10 +150,6 @@ body {
   background-color: white;
   border-radius: 50%;
   margin: 0px 5px;
-}
-
-.white-dot:nth-child(1) {
-  animation: rotate 1s ease-in-out infinite;
 }
 
 @keyframes scaleUp {
@@ -206,7 +206,7 @@ body {
         <div class="white-dot"></div>
         <div class="white-dot"></div>
       </div>
-      <div class="box">
+      <div class="line-box">
         <div class="white-box"></div>
         <div class="white-box"></div>
         <div class="white-box"></div>
