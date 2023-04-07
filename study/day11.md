@@ -462,3 +462,358 @@ h2 {
   </body>
 </html>
 ```
+
+ta's answer
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>You Are Awesome!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <i class="fas fa-bars"></i>
+      <h1>library</h1>
+      <i class="fas fa-shopping-basket"></i>
+    </header>
+    <div class="search">
+      <input type="text" placeholder="Search books..." />
+      <i class="fas fa-search"></i>
+    </div>
+    <main>
+      <h2>Book of the Day</h2>
+      <div class="featured-book">
+        <img
+          src="https://cdn.shopify.com/s/files/1/2697/1746/products/1984-book-cover-art-book-cover-prints-2_1531c558-4ea7-4a8b-95f4-1fa3534f0ee9_1200x1200.jpg?v=1545557205"
+          class="featured-book__cover"
+        />
+        <div class="featured-book__data">
+          <h3 class="featured-book__title">1984</h3>
+          <h5 class="featured-book__author">George Orwell</h5>
+          <div class="featured-book__rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="featured-book__tags">
+            <span class="featured-book__tag">Distopia</span>
+            <span class="featured-book__tag">Freedom</span>
+          </div>
+          <div class="featured-book__actions">
+            <span class="featured-book__bookmark"
+              ><i class="fas fa-bookmark"></i
+            ></span>
+            <span class="featured-book__book">Book now</span>
+          </div>
+        </div>
+      </div>
+      <h2>Top Adventures</h2>
+      <div class="top-books">
+        <div class="top-books__book">
+          <img
+            src="https://cdn.shopify.com/s/files/1/2697/1746/products/1984-book-cover-art-book-cover-prints-2_1531c558-4ea7-4a8b-95f4-1fa3534f0ee9_1200x1200.jpg?v=1545557205"
+          />
+          <div class="top-books__rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        <div class="top-books__book">
+          <img
+            src="https://cdn.shopify.com/s/files/1/2697/1746/products/1984-book-cover-art-book-cover-prints-2_1531c558-4ea7-4a8b-95f4-1fa3534f0ee9_1200x1200.jpg?v=1545557205"
+          />
+          <div class="top-books__rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        <div class="top-books__book">
+          <img
+            src="https://cdn.shopify.com/s/files/1/2697/1746/products/1984-book-cover-art-book-cover-prints-2_1531c558-4ea7-4a8b-95f4-1fa3534f0ee9_1200x1200.jpg?v=1545557205"
+          />
+          <div class="top-books__rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        <div class="top-books__book">
+          <img
+            src="https://cdn.shopify.com/s/files/1/2697/1746/products/1984-book-cover-art-book-cover-prints-2_1531c558-4ea7-4a8b-95f4-1fa3534f0ee9_1200x1200.jpg?v=1545557205"
+          />
+          <div class="top-books__rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        <div class="top-books__book">
+          <img
+            src="https://cdn.shopify.com/s/files/1/2697/1746/products/1984-book-cover-art-book-cover-prints-2_1531c558-4ea7-4a8b-95f4-1fa3534f0ee9_1200x1200.jpg?v=1545557205"
+          />
+          <div class="top-books__rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+        <div class="top-books__book">
+          <img
+            src="https://cdn.shopify.com/s/files/1/2697/1746/products/1984-book-cover-art-book-cover-prints-2_1531c558-4ea7-4a8b-95f4-1fa3534f0ee9_1200x1200.jpg?v=1545557205"
+          />
+          <div class="top-books__rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <h2>Popular authors</h2>
+      <div class="popular">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/George_Orwell%2C_c._1940.jpg/1200px-George_Orwell%2C_c._1940.jpg"
+        />
+        <div class="popular__data">
+          <h5 class="popular__title">George Orwell</h5>
+          <p class="popular__bio">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            at et excepturi quos! Doloribus, itaque enim non ex temporibus sint
+            officia, at ipsa saepe magni maxime! Laboriosam facilis aut
+            corrupti?
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+```
+
+```css
+* {
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  max-width: 360px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+header {
+  background: #fdcc32;
+  display: flex;
+  justify-content: center;
+  padding: 40px 15px;
+  padding-bottom: 50px;
+}
+
+header > * {
+  width: 33%;
+}
+
+header h1 {
+  text-align: center;
+  font-weight: 600;
+}
+
+header i:last-child {
+  text-align: right;
+}
+
+.search {
+  width: 95%;
+  position: relative;
+  top: -30px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  border: none;
+  padding: 15px 25px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+input::placeholder {
+  opacity: 0.7;
+}
+
+.search i {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+main {
+  padding: 0px 15px;
+}
+
+main h2 {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.featured-book {
+  display: flex;
+}
+
+.featured-book__cover {
+  width: 110px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.featured-book__data {
+  width: 100%;
+}
+
+.featured-book__title {
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.featured-book__author {
+  font-size: 12px;
+  font-weight: 600;
+  opacity: 0.3;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.featured-book__rating {
+  color: #fdcc32;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.featured-book__rating i:last-child {
+  color: #f7f7f7;
+}
+
+.featured-book__tags {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.featured-book__tag {
+  background: #f7f7f7;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 10px 20px;
+  display: block;
+  border-radius: 5px;
+}
+
+.featured-book__actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.featured-book__bookmark {
+  background-color: #fdcc32;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.featured-book__book {
+  background: black;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 10px 40px;
+  display: block;
+  border-radius: 5px;
+}
+
+.top-books {
+  display: flex;
+  overflow-x: scroll;
+  padding-bottom: 15px;
+}
+
+.top-books__book {
+  margin-right: 20px;
+}
+
+.top-books__book img {
+  width: 68px;
+  border-radius: 3px;
+}
+
+.top-books__rating {
+  color: #fdcc32;
+  font-size: 8px;
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+}
+
+.popular {
+  display: flex;
+}
+
+.popular img {
+  width: 140px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.popular__title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.popular__bio {
+  opacity: 0.5;
+  font-size: 14px;
+}
+```
