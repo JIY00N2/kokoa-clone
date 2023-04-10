@@ -1,5 +1,8 @@
 .user-component{
     justify-content: space-between;
+    padding-bottom:10px;
+    margin-bottom:20px;
+    border-bottom: 1px solid rgb(121,121,121,0.3);
 }
 .user-component, 
 .user-component__column{
