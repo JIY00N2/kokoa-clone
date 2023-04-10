@@ -15,5 +15,8 @@ Settings Section<br>
 Chat Section<br>
 Complete Kokoa-clone Version 1
 
-### 2023.03.26~
-Challenge Start
+### 2023.03.26~2023.04.10
+Challenge Start ~ Challenge Fin
+
+### 주요 기능
+
