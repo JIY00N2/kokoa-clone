@@ -309,3 +309,5 @@ section {
   </body>
 </html>
 ```
+
+과제 링크: https://replit.com/@angella990825/YouAreAwesomeBlueprint-2
