@@ -817,3 +817,5 @@ main h2 {
   font-size: 14px;
 }
 ```
+
+과제 링크: https://replit.com/@angella990825/WeLoveYouBlueprint-3
